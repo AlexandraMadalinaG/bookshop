@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bookistik - Your favorite authors in one place</title>
+        <link href="./styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <!-- Navigation -->
+
+        <header id="header">
+            <div class="info">
+                <p><i class="fa-solid fa-shipping-fast"></i> Free delivery over 30£</p>
+            </div>
+            <div class="main">
+                <div class="logo">
+                    <a class="logo" href="#">Bookistik</a>
+                </div>
+                <div class="search">
+                    <div class="input-group">
+                        <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" placeholder="Search your favourite book" />
+                    </div>
+                </div>
+                <div class="links">
+                    <a class="link" href="#">
+                        <i class="fa-solid fa-user"></i>
+                        Account
+                    </a>
+
+                    <a class="link" href="#">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        Basket
+                    </a>
+                    <a class="link" href="#">
+                        <i class="fa-solid fa-heart"></i>
+                        Favourite
+                    </a>
+                </div>
+            </div>
+            <nav class="categories">
+                <a class="category" href="#">Love</a>
+                <a class="category" href="#">Fiction</a>
+                <a class="category" href="#">Biographies and memoirs</a>
+                <a class="category" href="#">History</a>
+                <a class="category" href="#">Business, economy, finance</a>
+                <a class="category" href="#">Gastronomy</a>
+                <a class="category" href="#">Art, architecture, photography</a>
+                <a class="category" href="#">Audiobooks</a>
+                <a class="category" href="#">For kids</a>
+                <a class="category" href="#">Personal Development</a>
+                <a class="category" href="#">Medicine</a>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section id="hero">
+            <div class="overlay">
+                <div class="description">
+                    <h1 class="title">Jeanette Winterson</h1>
+                    <q class="quote"
+                        >Books and doors are the same thing. You open them, and you go through into
+                        another world.</q
+                    >
+                    <a class="order" href="#">Order now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section id="promo" class="products-section">
+            <h2 class="title">Promotions</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img1.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">The Forevers</h3>
+                        <p class="author">Chris Whitaker</p>
+                        <p class="price">18<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img2.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Asian ghost short stories</h3>
+                        <p class="author">-</p>
+                        <p class="price">22<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img3.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Atomic habits</h3>
+                        <p class="author">James Clear</p>
+                        <p class="price">17<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img4.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Time of the magicians</h3>
+                            <p class="author">Wolfram Eilenberger</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="products-section">
+            <h2 class="title">News</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img5.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">The House Witch</h3>
+                        <p class="author">Delemhach</p>
+                        <p class="price">22<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img6.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Autumn Chills</h3>
+                        <p class="author">Agatha Christie</p>
+                        <p class="price">26<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img7.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">The Winter Spirits</h3>
+                        <p class="author">-</p>
+                        <p class="price">12<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img8.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Invisible Girl</h3>
+                        <p class="author">Lisa Jewell</p>
+                        <p class="price">10<sup>99</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discover" class="products-section">
+            <h2 class="title">Discover</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img9.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Things We Hide From The Light</h3>
+                        <p class="author">Lucy Score</p>
+                        <p class="price">12<sup>99</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img10.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">The Maid's Diary</h3>
+                        <p class="author">Loreth Anne White</p>
+                        <p class="price">19<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img11.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Before We Say Goodbye</h3>
+                        <p class="author">Louise Candlish</p>
+                        <p class="price">25<sup>00</sup> Lei</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img12.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">The Woman Whi Lied</h3>
+                        <p class="author">Claire Douglas</p>
+                        <p class="price">21<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img13.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Romeo si Juliet</h3>
+                        <p class="author">William Shakespeare</p>
+                        <p class="price">16<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img14.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Traitors Gate</h3>
+                        <p class="author">Jeffrey Archer</p>
+                        <p class="price">15<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img15.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Sleeping Soldiers</h3>
+                        <p class="author">Jack Gatland</p>
+                        <p class="price">7<sup>99</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img16.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Grown Ups</h3>
+                        <p class="author">Marian Keyes</p>
+                        <p class="price">18<sup>99</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img17.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">The sweet spot</h3>
+                        <p class="author">Paul Bloom</p>
+                        <p class="price">28<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img18.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Am I normal?</h3>
+                        <p class="author">Sarah Chaney</p>
+                        <p class="price">14<sup>99</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img19.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Nothing burns as bright as you</h3>
+                        <p class="author">Ashley Woodfolk</p>
+                        <p class="price">12<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img20.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Forget me not</h3>
+                        <p class="author">Alisson Derrick</p>
+                        <p class="price">23<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book-img21.jpg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Pandora</h3>
+                        <p class="author">Susan Stokes</p>
+                        <p class="price">11<sup>99</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promo" class="products-section">
+            <h2 class="title">Harry Potter Colection</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/book1-HP.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Harry Potter And The Philosopher's Stone</h3>
+                        <p class="author">J.K Rowling</p>
+                        <p class="price">18<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/book2-HP.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Harry Potter And The Chamber Of Secrets</h3>
+                        <p class="author">J.K Rowling</p>
+                        <p class="price">22<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/book3-HP.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Harry Potter And The Prisoner Of Azkaban</h3>
+                        <p class="author">J.K Rowling</p>
+                        <p class="price">17<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/book4-HP.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Harry Potter And The Goblet Of Fire</h3>
+                            <p class="author">J.K Rowling</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/book5-HP.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Harry Potter And The Order Of The Phoenox</h3>
+                            <p class="author">J.K Rowling</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/book6-HP.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Harry Potter And Half-Blood Prince</h3>
+                            <p class="author">J.K Rowling</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/book7-HP.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Harry Potter And The Deathly Hallows</h3>
+                            <p class="author">J.K Rowling</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promo" class="products-section">
+            <h2 class="title">Colleen Hoover Colection</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book1-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">Ugly Love</h3>
+                        <p class="author">Colleen Hoover</p>
+                        <p class="price">18<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book2-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">It Ends With Us</h3>
+                        <p class="author">Colleen Hoover</p>
+                        <p class="price">22<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book3-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <h3 class="title">9 November</h3>
+                        <p class="author">Colleen Hoover</p>
+                        <p class="price">17<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book4-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Without Merit</h3>
+                            <p class="author">Colleen Hoover</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book5-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Too Late</h3>
+                            <p class="author">Colleen Hoover</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book6-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Maybe Someday</h3>
+                            <p class="author">Colleen Hoover</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book7-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Confess</h3>
+                            <p class="author">Colleen Hoover</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image">
+                        <img src="./assets/products/book8-CH.jpeg" />
+                    </div>
+                    <div class="details">
+                        <div class="about">
+                            <h3 class="title">Maybe Not</h3>
+                            <p class="author">Colleen Hoover</p>
+                        </div>
+                        <p class="price">14<sup>00</sup> £</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="add-to-cart"
+                            ><i class="fa-solid fa-bag-shopping"></i> Add to Basket</a
+                        >
+                        <a href="#" class="add-to-wishlist"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section id="newsletter">
+            <h2 class="title">
+                Do you want to receive news and personalized offers? Subscribe to the Newsletter!
+            </h2>
+            <form class="form">
+                <div class="input-group">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" placeholder="ex: John Smith" name="name" required />
+                </div>
+                <div class="input-group">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input
+                        type="email"
+                        placeholder="ex: johnsmith@gmail.com"
+                        name="mail"
+                        required
+                    />
+                </div>
+                <a class="submit" href="#">Subscribe</a>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-grid">
+                <div class="footer-left">
+                    <a class="logo" href="#">Bookistik</a>
+                    <p class="description">
+                        With over 9 years of experience, Bookistik redefines what we expect from a
+                        bookstore.
+                    </p>
+                    <div class="contact">
+                        <ul>
+                            <li class="company">Bookistik</li>
+                            <li class="address">Flowers Street</li>
+                            <li class="phone"><a href="tel:+40754525369">075894525369</a></li>
+                            <li class="hours">Monday-Friday: 9am - 6pm</li>
+                        </ul>
+                    </div>
+                    <div class="social-media"></div>
+                </div>
+                <div class="footer-center">
+                    <div class="title">
+                        <p>Useful Links</p>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">How do I buy?</a></li>
+                            <li><a href="#">Delivery and Return</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="payment-methods">
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-paypal"></i>
+                        <i class="fa-brands fa-bitcoin"></i>
+                    </div>
+                    <div class="reviews">
+                        <p>
+                            Over <strong> 120.000 </strong> customers <br />
+                            <strong>4,9 / 5</strong>, 4793 reviews
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <hr />
+                <p>© 2023 Bookistik - All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
